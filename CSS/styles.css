@@ -9,7 +9,7 @@
 }
 
 #indexLoginSection {
-    background-color: #444444;
+    background-color: #353535;
     border: 8px solid black;
     border-bottom-color: #565656;
     border-right-color: #646464;
@@ -21,7 +21,7 @@
     width: 30%;
 }
 
-.font1 {
+.titleFont {
     color: #dd4410;
     font-family: 'Lato', sans-serif;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -34,9 +34,25 @@
     padding-left: 25%;
 }
 
+.baseFont {
+    color: #656565
+}
+
 .loginField {
     background-color: #ffb87a;
     font-family: 'Lato', sans-serif;
     width: 50%;
     margin-left: 25%;
+}
+
+.button {
+    background-color: #ffb87a;
+    font-family: 'Lato', sans-serif;
+}
+
+#indexLoginButton {
+    margin: 10px;
+    margin-left: 40%;
+    width:20%;
+    font-size: 20px;
 }

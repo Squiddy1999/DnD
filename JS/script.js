@@ -1,1 +1,3 @@
-// JavaScript source code
+$(document).ready(function () {
+    console.log("Ready");
+});
