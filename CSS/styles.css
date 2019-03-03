@@ -1,0 +1,10 @@
+﻿body
+{
+    background-color: #242424;
+    border: 8px solid black;
+    border-bottom-color:#646464;
+    border-right-color: #444444;
+    border-top-color: #E4E4E4;
+    border-left-color: #A4A4A4;
+    height: 100%;
+}
