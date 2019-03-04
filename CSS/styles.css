@@ -3,18 +3,21 @@
     height:100%;
 }
 
-#loginTitle {
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
-#indexLoginSection {
+.section {
     background-color: #353535;
     border: 8px solid black;
     border-bottom-color: #565656;
     border-right-color: #646464;
     border-top-color: #C4C4C4;
     border-left-color: #A4A4A4;
+}
+
+#loginTitle {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#indexLoginSection {   
     height: 100%;
     padding: 10px;
     margin-left: 35%;
@@ -48,6 +51,7 @@
 .button {
     background-color: #ffb87a;
     font-family: 'Lato', sans-serif;
+    border-radius: 4px;
 }
 
 #indexLoginButton {
@@ -55,4 +59,14 @@
     margin-left: 40%;
     width:20%;
     font-size: 20px;
+}
+
+.list li{
+    list-style: none;
+}
+
+#logoutButton {
+    float: right;
+    margin: 10px;
+    margin-left: 0px;    
 }

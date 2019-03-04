@@ -7,6 +7,10 @@ function button() {
     $("#indexLoginButton").click(function () {
         console.log("Click!");
         window.location = "userHome.html";
-        console.log(window.location);
+    });
+
+    $("#logoutButton").click(function () {
+        console.log("Click!");
+        window.location = "index.html";
     });
 }
